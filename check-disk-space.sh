@@ -11,10 +11,5 @@ USE=$(df -h | grep disk3s1 | awk '{print $5}' | cut -d '%' -f1)
 
 if [ $USE -gt $DISK ]; then
     echo "Persent Used: $USE" | mail -s "Running out of disk space" $EMAIL
-   echo 'send!!'
-
-else
-    echo "Persent Used: $USE" | mail -s "good!" $EMAIL
-   echo 'send???!!'
-   
+    echo 'send!!'
 fi 
