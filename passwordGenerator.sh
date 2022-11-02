@@ -1,6 +1,8 @@
 #!/bin/zsh
-
-#Simple Random Password Generator
+# Author: Sara
+# Date: 29/10/2022
+# Description: Simple Random Password Generator
+# Modified: 02/11/2022
 
 echo "This is a simple Password Generator "
 echo "Pleas enter the length of the Password: "

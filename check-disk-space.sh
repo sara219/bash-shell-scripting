@@ -1,6 +1,8 @@
 #!/bin/zsh 
-
-# Check the disk space! if theres space or not, if not send email to me  :: 
+# Author: Sara
+# Date: 29/10/2022
+# Description: Check the disk space! if theres space or not, if not send email to me.
+# Modified: 02/11/2022
 
 DISK=10
 EMAIL=sara97abuawwad@gmail.com
